@@ -15,5 +15,5 @@ window.team = team;
 window.team1 = team1;
 window.team1[0]="kishan";
 window.cap1 = cap1;
-window.cap1.name="kishan";
-window.cap1["age"]=22;
+window.cap1.name:"kishan";
+window.cap1["age"]:22;
