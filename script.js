@@ -10,7 +10,7 @@ const team = players;
 const team1 = players.slice();
 
 //let copiedPerson = Object.assign({}, person);
-let cap1 = Object.assign({}, person);
+let cap1 = {...person};
 
 
 window.players = players;
