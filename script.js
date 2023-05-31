@@ -7,8 +7,8 @@ const person = {
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 const team = players;
-const team1 = players.slice();
-
+// const team1 = players.slice();
+const team1 = [...players];
 //let copiedPerson = Object.assign({}, person);
 // let cap1 = Object.assign({},person);
 let cap1 = {...person};
